@@ -8,7 +8,7 @@
       "author": "Aiseek",
       "repository": "https://github.com/fankris/cpa-plugins-store",
       "homepage": "https://github.com/fankris/cpa-plugins-store",
-      "version": "1.0.9",
+      "version": "1.0.10",
       "license": "MIT",
       "tags": [
         "concurrency",
@@ -23,10 +23,25 @@
       "author": "Aiseek",
       "repository": "https://github.com/fankris/cpa-plugins-store",
       "homepage": "https://github.com/fankris/cpa-plugins-store",
-      "version": "1.0.9",
+      "version": "1.0.10",
       "license": "MIT",
       "tags": [
         "qoder",
+        "oauth",
+        "provider"
+      ]
+    },
+    {
+      "id": "trae",
+      "name": "Trae",
+      "description": "Trae provider plugin with CN, SOLO, and Intl variants, OAuth, multi-account scheduling, credits, check-in, and token keepalive.",
+      "author": "Aiseek",
+      "repository": "https://github.com/fankris/cpa-plugins-store",
+      "homepage": "https://github.com/fankris/cpa-plugins-store",
+      "version": "1.0.10",
+      "license": "MIT",
+      "tags": [
+        "trae",
         "oauth",
         "provider"
       ]
@@ -38,7 +53,7 @@
       "author": "Aiseek",
       "repository": "https://github.com/fankris/cpa-plugins-store",
       "homepage": "https://github.com/fankris/cpa-plugins-store",
-      "version": "1.0.9",
+      "version": "1.0.10",
       "license": "MIT",
       "tags": [
         "workbuddy",
