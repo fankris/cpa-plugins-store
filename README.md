@@ -1,6 +1,6 @@
 # CPA Plugins Store
 
-Public binary distribution for CPA / CLIProxyAPI native plugins.
+Public GitHub Release distribution for CPA / CLIProxyAPI native plugins.
 
 This repository intentionally contains no Go source, tests, credentials, or
 private build configuration. The source and build workflow remain in the
@@ -21,24 +21,29 @@ Registry URL:
 
 <https://raw.githubusercontent.com/fankris/cpa-plugins-store/main/registry.json>
 
-The registry uses CPA plugin store schema v2 and direct, SHA-256-pinned HTTPS
-artifacts. Each artifact is a ZIP whose target dynamic library is at the ZIP
-root, as required by CPA's native plugin installer.
+The registry uses CPA plugin store schema v1 and `github-release` installation.
+CPA reads the latest GitHub Release from this repository, derives the plugin
+version from the release tag, downloads the matching platform ZIP and verifies
+`checksums.txt` before installing it.
 
-## Published platforms
+## Published release
 
-The initial public release provides Linux `amd64` artifacts for:
+The current release is [`v1.0.1`](https://github.com/fankris/cpa-plugins-store/releases/tag/v1.0.1).
+It provides Linux `amd64` artifacts for:
 
-- `account-concurrency` `0.3.0`
-- `qoder` `0.8.6`
-- `workbuddy` `0.9.18`
+- `account-concurrency`
+- `qoder`
+- `workbuddy`
 
-Additional platforms can be added without exposing the private source tree.
+Each asset follows CPA's required naming convention:
+
+```text
+<plugin-id>_<release-version>_<goos>_<goarch>.zip
+checksums.txt
+```
+
+Each ZIP contains only its matching dynamic library at the archive root. The
+published plugin metadata uses `Aiseek` as the author name.
+
 `trae` is intentionally not listed until its private source build is repaired;
 no placeholder or non-installable binary is published.
-
-## Releases
-
-Release assets are published under the `v1.0.0` distribution release. Each ZIP
-contains only its matching plugin library at the archive root. Checksums are
-recorded in [`checksums.txt`](https://github.com/fankris/cpa-plugins-store/releases/download/v1.0.0/checksums.txt).

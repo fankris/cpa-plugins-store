@@ -1,69 +1,44 @@
 {
-  "schema_version": 2,
+  "schema_version": 1,
   "plugins": [
     {
       "id": "account-concurrency",
       "name": "Account Concurrency Limiter",
       "description": "Limits concurrent in-flight requests per account with per-account and per-provider/model rules, optional queueing, and HTTP 429 rejection.",
-      "author": "aiseek",
+      "author": "Aiseek",
       "repository": "https://github.com/fankris/cpa-plugins-store",
       "homepage": "https://github.com/fankris/cpa-plugins-store",
-      "version": "0.3.0",
+      "version": "1.0.1",
       "license": "MIT",
       "tags": [
         "concurrency",
         "rate-limit",
         "scheduler"
-      ],
-      "install": {
-        "type": "direct",
-        "artifacts": [
-          {
-            "goos": "linux",
-            "goarch": "amd64",
-            "url": "https://github.com/fankris/cpa-plugins-store/releases/download/v1.0.0/account-concurrency_0.3.0_linux_amd64.zip",
-            "sha256": "2ca130410652b77b2488c4961582d7cffc396e2175180b5a4263e815bbaface6",
-            "size": 2032068
-          }
-        ]
-      }
+      ]
     },
     {
       "id": "qoder",
       "name": "Qoder",
       "description": "Qoder CN and Intl provider plugin with OAuth/PAT login, dynamic models, COSY-signed inference, check-in, credits, and token keepalive.",
-      "author": "Sliverkiss (based on qoderwork by lovingfish)",
+      "author": "Aiseek",
       "repository": "https://github.com/fankris/cpa-plugins-store",
       "homepage": "https://github.com/fankris/cpa-plugins-store",
-      "version": "0.8.6",
+      "version": "1.0.1",
       "license": "MIT",
       "tags": [
         "qoder",
         "oauth",
         "provider"
-      ],
-      "auth_required": true,
-      "install": {
-        "type": "direct",
-        "artifacts": [
-          {
-            "goos": "linux",
-            "goarch": "amd64",
-            "url": "https://github.com/fankris/cpa-plugins-store/releases/download/v1.0.0/qoder_0.8.6_linux_amd64.zip",
-            "sha256": "004d088807e8ec8b3c01791730aab4c9eed17aeccbd3f72a8b836ea1e7833fb3",
-            "size": 3063484
-          }
-        ]
-      }
+      ]
     },
     {
       "id": "workbuddy",
       "name": "WorkBuddy",
       "description": "Tencent CodeBuddy/WorkBuddy provider with CN, Global, and Intl realms, OAuth, model discovery, credit lifecycle, check-in, and management panel.",
-      "author": "Sliverkiss (based on workbuddy by lovingfish)",
+      "author": "Aiseek",
       "repository": "https://github.com/fankris/cpa-plugins-store",
       "homepage": "https://github.com/fankris/cpa-plugins-store",
-      "version": "0.9.18",
+      "version": "1.0.1",
       "license": "MIT",
       "tags": [
         "workbuddy",
@@ -73,20 +48,7 @@
         "cn",
         "intl",
         "global"
-      ],
-      "auth_required": true,
-      "install": {
-        "type": "direct",
-        "artifacts": [
-          {
-            "goos": "linux",
-            "goarch": "amd64",
-            "url": "https://github.com/fankris/cpa-plugins-store/releases/download/v1.0.0/workbuddy_0.9.18_linux_amd64.zip",
-            "sha256": "3dc23052c64ddb3578aa3c3d38fac3f7dcc0f28a6bf6b42a7255da0ce35b4a04",
-            "size": 2325350
-          }
-        ]
-      }
+      ]
     }
   ]
 }
