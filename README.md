@@ -28,11 +28,12 @@ version from the release tag, downloads the matching platform ZIP and verifies
 
 ## Published release
 
-The current release is [`v1.0.32`](https://github.com/fankris/cpa-plugins-store/releases/tag/v1.0.32).
+The current release is [`v1.0.33`](https://github.com/fankris/cpa-plugins-store/releases/tag/v1.0.33).
 It provides Linux `amd64` artifacts for:
 
 - `account-concurrency`
 - `qoder`
+- `trae`
 - `workbuddy`
 
 Each asset follows CPA's required naming convention:
@@ -45,5 +46,4 @@ checksums.txt
 Each ZIP contains only its matching dynamic library at the archive root. The
 published plugin metadata uses `Aiseek` as the author name.
 
-`trae` is intentionally not listed until its private source build is repaired;
-no placeholder or non-installable binary is published.
+The `workbuddy` metadata exposes only CN and Intl regions; its legacy `workbuddy.ai` credentials continue to use their original service route.
