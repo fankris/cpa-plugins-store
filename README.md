@@ -46,4 +46,6 @@ checksums.txt
 Each ZIP contains only its matching dynamic library at the archive root. The
 published plugin metadata uses `Aiseek` as the author name.
 
+The `workbuddy` plugin is maintained in the standalone repository [`fankris/cpa-plugins-workbuddy`](https://github.com/fankris/cpa-plugins-workbuddy).
+
 The `workbuddy` metadata exposes only CN and Intl regions; its legacy `workbuddy.ai` credentials continue to use their original service route.

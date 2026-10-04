@@ -51,9 +51,9 @@
       "name": "WorkBuddy",
       "description": "Tencent CodeBuddy/WorkBuddy provider with CN and Intl regions, OAuth, model discovery, credit lifecycle, check-in, and management panel; legacy WorkBuddy credentials retain their original service routing.",
       "author": "Aiseek",
-      "repository": "https://github.com/fankris/cpa-plugins-store",
-      "homepage": "https://github.com/fankris/cpa-plugins-store",
-      "version": "8.0.13-1.0.41",
+      "repository": "https://github.com/fankris/cpa-plugins-workbuddy",
+      "homepage": "https://github.com/fankris/cpa-plugins-workbuddy",
+      "version": "8.0.13-1.0.42",
       "license": "MIT",
       "tags": [
         "workbuddy",
