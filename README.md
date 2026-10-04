@@ -28,7 +28,7 @@ version from the release tag, downloads the matching platform ZIP and verifies
 
 ## Published release
 
-The current release is [`v8.0.13-1.0.39`](https://github.com/fankris/cpa-plugins-store/releases/tag/v8.0.13-1.0.39).
+The current release is [`v8.0.13-1.0.41`](https://github.com/fankris/cpa-plugins-store/releases/tag/v8.0.13-1.0.41).
 It provides Linux `amd64` artifacts for:
 
 - `account-concurrency`
