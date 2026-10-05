@@ -1,4 +1,4 @@
-533ea8516baff6a7b771a0f3eceb44c08dfb31d0c17f818b4b753bcc9ebac870  account-concurrency_8.0.13-1.0.44_linux_amd64.zip
-33c480d22f04d1d18df6a20d7a966f8878cc1a299bb9558704d27a0ae02748f7  qoder_8.0.13-1.0.44_linux_amd64.zip
-0504062f7ff1371bf7e7b59b8d6ebe4bdabdfacdbc952bde01f6dc639c49f01c  trae_8.0.13-1.0.44_linux_amd64.zip
-adf15cbc1fbb657b281c2190f9c72db4742fe215e5d89b9721faefa2c80b6dc2  workbuddy_8.0.13-1.0.44_linux_amd64.zip
+ab962de11f1cb12638e648c6d8bf8fb002abf895db90419b02b2ca3e5ef1d24d  account-concurrency_8.0.15-1.0.45_linux_amd64.zip
+092532963d3c73b8e7c40e95e789c09591c0847bacacdf794c80b7bd04c55788  qoder_8.0.15-1.0.45_linux_amd64.zip
+7ab16df905d8f445264557edae7bb62d1c3d1b89a8fdc95330735b6a54a58468  trae_8.0.15-1.0.45_linux_amd64.zip
+80ae7e81b98b5b95a96319cfd43fbde67d62094ca5b9006982ede22f1c7e7a23  workbuddy_8.0.15-1.0.45_linux_amd64.zip
