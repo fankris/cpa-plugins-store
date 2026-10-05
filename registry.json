@@ -14,7 +14,19 @@
         "concurrency",
         "rate-limit",
         "scheduler"
-      ]
+      ],
+      "install": {
+        "type": "direct",
+        "artifacts": [
+          {
+            "goos": "linux",
+            "goarch": "amd64",
+            "url": "https://github.com/fankris/cpa-plugins-store/releases/download/v8.0.15-1.0.46/account-concurrency_8.0.15-1.0.46_linux_amd64.zip",
+            "sha256": "bbfe59d3bd07ab0b2dd2d2aa0793695450068299b2d8895c7449cfe4396dc889",
+            "size": 3643025
+          }
+        ]
+      }
     },
     {
       "id": "qoder",
@@ -29,7 +41,19 @@
         "qoder",
         "oauth",
         "provider"
-      ]
+      ],
+      "install": {
+        "type": "direct",
+        "artifacts": [
+          {
+            "goos": "linux",
+            "goarch": "amd64",
+            "url": "https://github.com/fankris/cpa-plugins-store/releases/download/v8.0.15-1.0.46/qoder_8.0.15-1.0.46_linux_amd64.zip",
+            "sha256": "ecfd3c2614eefb7159254cfd6d9a68c16e71e677bd78f8aabfca4b01475134e7",
+            "size": 5407609
+          }
+        ]
+      }
     },
     {
       "id": "trae",
@@ -44,7 +68,19 @@
         "trae",
         "oauth",
         "provider"
-      ]
+      ],
+      "install": {
+        "type": "direct",
+        "artifacts": [
+          {
+            "goos": "linux",
+            "goarch": "amd64",
+            "url": "https://github.com/fankris/cpa-plugins-store/releases/download/v8.0.15-1.0.46/trae_8.0.15-1.0.46_linux_amd64.zip",
+            "sha256": "459132ddf1f527dab8f7900371a36e434b73640a2104552e684fc623ffc1918f",
+            "size": 5534181
+          }
+        ]
+      }
     },
     {
       "id": "workbuddy",
@@ -62,7 +98,19 @@
         "provider",
         "cn",
         "intl"
-      ]
+      ],
+      "install": {
+        "type": "direct",
+        "artifacts": [
+          {
+            "goos": "linux",
+            "goarch": "amd64",
+            "url": "https://github.com/fankris/cpa-plugins-store/releases/download/v8.0.15-1.0.46/workbuddy_8.0.15-1.0.46_linux_amd64.zip",
+            "sha256": "3e2cf5cd458dc617a37d1e85bf4f1933c22d0f0756812b3442ffc98f927ef07d",
+            "size": 4441008
+          }
+        ]
+      }
     }
   ]
 }
