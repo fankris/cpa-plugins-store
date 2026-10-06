@@ -8,7 +8,7 @@
       "author": "Aiseek",
       "repository": "https://github.com/fankris/cpa-plugins-store",
       "homepage": "https://github.com/fankris/cpa-plugins-store",
-      "version": "8.0.15-1.0.47",
+      "version": "8.0.15-1.0.48",
       "license": "MIT",
       "tags": [
         "concurrency",
@@ -21,9 +21,9 @@
           {
             "goos": "linux",
             "goarch": "amd64",
-            "url": "https://github.com/fankris/cpa-plugins-store/releases/download/v8.0.15-1.0.47/account-concurrency_8.0.15-1.0.47_linux_amd64.zip",
-            "sha256": "ceefef23e94d13c09486e2bfa7e21dd95708cd9bf8d1f53454e6e2223c6aebfc",
-            "size": 3643021
+            "url": "https://github.com/fankris/cpa-plugins-store/releases/download/v8.0.15-1.0.48/account-concurrency_8.0.15-1.0.48_linux_amd64.zip",
+            "sha256": "a3d1c762bfdb7bdc224ffef2d4eae0d603515fc5ae664289bb8fc8b800c68a9c",
+            "size": 3643022
           }
         ]
       }
@@ -35,7 +35,7 @@
       "author": "Aiseek",
       "repository": "https://github.com/fankris/cpa-plugins-store",
       "homepage": "https://github.com/fankris/cpa-plugins-store",
-      "version": "8.0.15-1.0.47",
+      "version": "8.0.15-1.0.48",
       "license": "MIT",
       "tags": [
         "qoder",
@@ -48,9 +48,9 @@
           {
             "goos": "linux",
             "goarch": "amd64",
-            "url": "https://github.com/fankris/cpa-plugins-store/releases/download/v8.0.15-1.0.47/qoder_8.0.15-1.0.47_linux_amd64.zip",
-            "sha256": "84a55747ca618071cf717ecd3adfbfd85a8c17753ec8f25c7f20a8461923a02c",
-            "size": 5407627
+            "url": "https://github.com/fankris/cpa-plugins-store/releases/download/v8.0.15-1.0.48/qoder_8.0.15-1.0.48_linux_amd64.zip",
+            "sha256": "1405d46e45ab2811e33f317a16cc97898b87945014b3a8873057a1fe4a912fc1",
+            "size": 5407633
           }
         ]
       }
@@ -62,7 +62,7 @@
       "author": "Aiseek",
       "repository": "https://github.com/fankris/cpa-plugins-store",
       "homepage": "https://github.com/fankris/cpa-plugins-store",
-      "version": "8.0.15-1.0.47",
+      "version": "8.0.15-1.0.48",
       "license": "MIT",
       "tags": [
         "trae",
@@ -75,9 +75,9 @@
           {
             "goos": "linux",
             "goarch": "amd64",
-            "url": "https://github.com/fankris/cpa-plugins-store/releases/download/v8.0.15-1.0.47/trae_8.0.15-1.0.47_linux_amd64.zip",
-            "sha256": "7355371926d7ddd713a3f0817fb6112f07c1530dcfa014ec9b00b021a49a73e1",
-            "size": 5534192
+            "url": "https://github.com/fankris/cpa-plugins-store/releases/download/v8.0.15-1.0.48/trae_8.0.15-1.0.48_linux_amd64.zip",
+            "sha256": "b8cc48b41191265d83db4f27b1e8c8d164ae755077bff6ea269ec293d0ef1d2a",
+            "size": 5534193
           }
         ]
       }
@@ -89,7 +89,7 @@
       "author": "Aiseek",
       "repository": "https://github.com/fankris/cpa-plugins-workbuddy",
       "homepage": "https://github.com/fankris/cpa-plugins-workbuddy",
-      "version": "8.0.15-1.0.47",
+      "version": "8.0.15-1.0.48",
       "license": "MIT",
       "tags": [
         "workbuddy",
@@ -105,9 +105,9 @@
           {
             "goos": "linux",
             "goarch": "amd64",
-            "url": "https://github.com/fankris/cpa-plugins-store/releases/download/v8.0.15-1.0.47/workbuddy_8.0.15-1.0.47_linux_amd64.zip",
-            "sha256": "fb111196774b9c8fe7cb1b87ad7830184079028fcf74da474433b864c9a13511",
-            "size": 4443084
+            "url": "https://github.com/fankris/cpa-plugins-store/releases/download/v8.0.15-1.0.48/workbuddy_8.0.15-1.0.48_linux_amd64.zip",
+            "sha256": "ea091fc9be07cc250be4398184b830cdeb693b2a2032c76b8d642f9713f1ea30",
+            "size": 4460385
           }
         ]
       }
